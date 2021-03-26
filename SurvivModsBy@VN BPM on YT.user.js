@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         Surviv.IO Simple Cheats
-// @namespace    https://github.com/iBLiSSIN
+// @name         Surviv.IO Simple Cheats Auto Update
+// @namespace    https://greasyfork.org/scripts/423957-surviv-io-simple-cheats/code/SurvivIO%20Simple%20Cheats.user.js
 // @version      1.1.0
 // @description  Mods for surviv.io. Aim Bot will coming soon. If do during transparency doesn't work, tell me.
 // @author       VN BPM on YouTube
