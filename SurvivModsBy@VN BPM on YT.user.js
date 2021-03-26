@@ -136,7 +136,7 @@ Object.keys(throwables).forEach(function(key1) {
     document.querySelector('#btn-customize').style.backgroundColor = '#272727'
     document.querySelector('#btn-customize').style.cssText = 'border-bottom: #141414; box-shadow: 0 0;';
     document.querySelector('#btn-customize').style.backgroundColor = '#272727'
-    document.querySelector('#background').style.cssText = 'background-image: url(https://cdn.discordapp.com/attachments/596811803103592576/689215613456875550/try.png)'
+    document.querySelector('#background').style.cssText = 'background-image: url(https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/background.png)'
     document.querySelector('#start-menu').style.cssText = 'position: relative; top: 130px; box-shadow: 0 0;'
     document.querySelector('#news-block').style.cssText = 'position: relative; top: 100px'
     document.querySelector('#team-menu').style.cssText = 'display: none; top: 80px'
