@@ -1,4 +1,4 @@
-==UserScript==
+// ==UserScript==
 // @name     	Surviv.io mods by VN BPM
 // @description Support aimbot for surviv.io
 // @namespace    https://greasyfork.org/scripts/419689-surviv-io-aim-assist-by-vn-bpm/code/Survivio%20aim%20assist%20by%20VN%20BPM.user.js
