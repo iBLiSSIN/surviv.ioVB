@@ -1,4 +1,4 @@
-# surviv.io mods by VN BPM on YouTube
+# surviv.io mods by [VN BPM on YouTube](https://www.youtube.com/channel/UCMZkPR_pngZGGRB8Ec7BkHA)
 Mods for surviv.io
 
 Install Tampermonkey, then press [here](https://github.com/iBLiSSIN/SurvivMods/raw/main/script/SurvivAimbot.user.js).
