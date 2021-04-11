@@ -64,7 +64,7 @@
             })
             .map(function (id) {
                 return game[obfuscate.objectCreator].idToObj[id];
-            });
-    }	
+                    }
+    }
 })
 })();
