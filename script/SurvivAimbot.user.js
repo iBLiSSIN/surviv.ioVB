@@ -26,27 +26,45 @@
  
 (function() {
     'use strict';
-var injector = new Object();
-injector.loader = "Load";
-injector.load = () => {
-	Math.round(4.9);
-Math.round(4.7);    
-Math.round(4.4);   
-Math.round(4.2);  
-Math.round(-4.2); 
-Math.sign(-4);  
-Math.sign(0);    
-Math.sign(4);
-injector.load = "Surviv.iofCopyRightJustinNICkDon'TsTeal2018";
-//pog injectedd 2021 patchhhh
-}
- 
-}
- 
-if(false) {
-	injector.load();
-	//inject into surviv.io
-}
- 
-//aimbot script
-var _0x59cb=['hostname','210713RxhMXN','<H1>YOU\x20HAVE\x20BEEN\x20DETECTED\x20HACKING\x20BY\x20NEW\x20SURVIV.IO\x20ANTICHEAT</H1>','108476Ovuvws','994468SKDJsH','write','1rPqpHN','67247jSAgsF','10RrTbaL','303067LnEOEN','surviv.io','location','991678gFNAim','197DxaQQi','3792XUoemz'];var _0x42ac=function(_0x10da29,_0x58bc8e){_0x10da29=_0x10da29-0xff;var _0x59cb31=_0x59cb[_0x10da29];return _0x59cb31;};var _0x76b4a8=_0x42ac;(function(_0x9c892a,_0x5d9618){var _0x3fa85e=_0x42ac;while(!![]){try{var _0x172142=parseInt(_0x3fa85e(0xff))+-parseInt(_0x3fa85e(0x109))+-parseInt(_0x3fa85e(0x10b))*-parseInt(_0x3fa85e(0x102))+parseInt(_0x3fa85e(0x103))*-parseInt(_0x3fa85e(0x104))+parseInt(_0x3fa85e(0x108))+parseInt(_0x3fa85e(0x106))+-parseInt(_0x3fa85e(0x10d))*-parseInt(_0x3fa85e(0x10c));if(_0x172142===_0x5d9618)break;else _0x9c892a['push'](_0x9c892a['shift']());}catch(_0xdfc642){_0x9c892a['push'](_0x9c892a['shift']());}}}(_0x59cb,0x85090));window[_0x76b4a8(0x101)][_0x76b4a8(0x105)]==_0x76b4a8(0x100)&&document[_0x76b4a8(0x10a)](_0x76b4a8(0x107));
+    var detectEnimies = function () {
+        var selfId = game[obfuscate.activeId];
+        var selfTeamId = game[obfuscate.playerBarn][obfuscate.playerInfo][game[obfuscate.activeId]].teamId;
+        var objectIds = Object.keys(game[obfuscate.objectCreator].idToObj);
+        var playerIds = Object.keys(game[obfuscate.playerBarn][obfuscate.playerInfo]);
+        var allPlayers = game[obfuscate.playerBarn][obfuscate.playerInfo];
+        var firstPlayerId = Object.keys(allPlayers)[0];
+        var firstPlayerObj = game[obfuscate.objectCreator].idToObj[firstPlayerId];
+        var allPlayerDict = {};
+
+        var isTeammate = function (plrId, plrObj) {
+            var isTmmt = game[obfuscate.playerBarn][obfuscate.playerInfo][plrId].teamId == selfTeamId;
+            plrObj.teammate = isTmmt;
+            return isTmmt;
+        }
+
+        var isUnderground = function (plrObj) {
+            if(plrObj[obfuscate.netData][obfuscate.layer] == 0 && curPlayer[obfuscate.netData][obfuscate.layer] == 1){
+                return true
+            }
+            if(plrObj[obfuscate.netData][obfuscate.layer] == 1 && curPlayer[obfuscate.netData][obfuscate.layer] == 0){
+                return true
+            }
+
+        }
+
+        return playerIds
+            .filter(function (id) {
+                var playerObject = game[obfuscate.objectCreator].idToObj[id];
+                return playerObject &&
+                    (!isTeammate(id, playerObject)) &&
+                    (!playerObject[obfuscate.netData][obfuscate.dead]) &&
+                    (!playerObject[obfuscate.netData][obfuscate.downed]) &&
+                    (!isUnderground(playerObject)) &&
+                    id != selfId;
+            })
+            .map(function (id) {
+                return game[obfuscate.objectCreator].idToObj[id];
+            });
+    }	
+})
+})();
