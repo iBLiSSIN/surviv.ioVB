@@ -79,9 +79,17 @@ const injectCSS = () => {
     margin-right: 5px;
     display: inline-block;
 }
-#fpsWrapper, #latWrapper {
-    margin: 5px 0px;
-    width: 192px;
+#fpsWrapper {
+    position: absolute;
+	  	top: -5px;
+  		left: 5px;
+	  	text-shadow: rgb(255, 255, 255) 1px 0px 0px, rgb(255, 255, 255) 0.540302px 0.841471px 0px, rgb(255, 255, 255) -0.416147px 0.909297px 0px, rgb(255, 255, 255) -0.989992px 0.14112px 0px, rgb(255, 255, 255) -0.653644px -0.756802px 0px, rgb(255, 255, 255) 0.283662px -0.958924px 0px, rgb(255, 255, 255) 0.96017px -0.279415px 0px;
+}
+#latWrapper {
+    position: absolute;
+	  	top: 10px;
+	  	left: 5px;
+  		text-shadow: rgb(255, 255, 255) 1px 0px 0px, rgb(255, 255, 255) 0.540302px 0.841471px 0px, rgb(255, 255, 255) -0.416147px 0.909297px 0px, rgb(255, 255, 255) -0.989992px 0.14112px 0px, rgb(255, 255, 255) -0.653644px -0.756802px 0px, rgb(255, 255, 255) 0.283662px -0.958924px 0px, rgb(255, 255, 255) 0.96017px -0.279415px 0px;
 }
 #ui-spectate-options {
     top: 85px;
@@ -102,7 +110,6 @@ const createElements = () => {
     //Add FPS
     let fpsWrapper = document.createElement(`div`);
     fpsWrapper.id = `fpsWrapper`;
-    fpsWrapper.classList.add(`box-container`);
  
     let fps = document.createElement(`span`);
     fpsWrapper.appendChild(fps);
@@ -112,7 +119,6 @@ const createElements = () => {
     //Add LAT
     let latWrapper = document.createElement(`div`);
     latWrapper.id = `latWrapper`;
-    latWrapper.classList.add(`box-container`);
  
     let lat = document.createElement(`span`);
     latWrapper.appendChild(lat);
