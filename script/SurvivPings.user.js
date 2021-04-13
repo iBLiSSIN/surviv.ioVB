@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Surviv.io Show Pings
 // @namespace    https://tampermonkey.net/
-// @version      1.1
+// @version      1.2.0
 // @description  Show your ad, hp, fps and lat
 // @author       VN BPM on YouTube
 // @match        *://surviv.io/*
@@ -28,7 +28,7 @@ const getPing = () => {
     request.open(`GET`, window.location.href, true);
  
     request.onload = (() => {
-        document.querySelector(`#latWrapper > span`).innerHTML = `${new Date - ping} LAT`;
+        document.querySelector(`#latWrapper > span`).innerHTML = `LAT: ${new Date - ping}`;
         setTimeout(getPing, 500);
     });
     request.send();
@@ -43,7 +43,7 @@ const getFPS = () => {
         while(times.length > 0 && times[0] <= now - 1000) times.shift();
         times.push(now);
  
-        document.querySelector(`#fpsWrapper > span`).innerHTML = `${times.length} FPS`;
+        document.querySelector(`#fpsWrapper > span`).innerHTML = `FPS: ${times.length}`;
         getFPS();
     });
 }
@@ -81,17 +81,17 @@ const injectCSS = () => {
 }
 #fpsWrapper {
     position: absolute;
-	  	top: -5px;
-  		left: 5px;
-                width: 150px;
-	  	text-shadow: rgb(255, 255, 255) 1px 0px 0px, rgb(255, 255, 255) 0.540302px 0.841471px 0px, rgb(255, 255, 255) -0.416147px 0.909297px 0px, rgb(255, 255, 255) -0.989992px 0.14112px 0px, rgb(255, 255, 255) -0.653644px -0.756802px 0px, rgb(255, 255, 255) 0.283662px -0.958924px 0px, rgb(255, 255, 255) 0.96017px -0.279415px 0px;
+	top: -5px;
+    left: 5px;
+    width: 150px;
+	text-shadow: rgb(255, 255, 255) 1px 0px 0px, rgb(255, 255, 255) 0.540302px 0.841471px 0px, rgb(255, 255, 255) -0.416147px 0.909297px 0px, rgb(255, 255, 255) -0.989992px 0.14112px 0px, rgb(255, 255, 255) -0.653644px -0.756802px 0px, rgb(255, 255, 255) 0.283662px -0.958924px 0px, rgb(255, 255, 255) 0.96017px -0.279415px 0px;
 }
 #latWrapper {
     position: absolute;
-	  	top: 10px;
-	  	left: 5px;
-                width:150px;
-  		text-shadow: rgb(255, 255, 255) 1px 0px 0px, rgb(255, 255, 255) 0.540302px 0.841471px 0px, rgb(255, 255, 255) -0.416147px 0.909297px 0px, rgb(255, 255, 255) -0.989992px 0.14112px 0px, rgb(255, 255, 255) -0.653644px -0.756802px 0px, rgb(255, 255, 255) 0.283662px -0.958924px 0px, rgb(255, 255, 255) 0.96017px -0.279415px 0px;
+	top: 10px;
+	left: 5px;
+    width:150px;
+    text-shadow: rgb(255, 255, 255) 1px 0px 0px, rgb(255, 255, 255) 0.540302px 0.841471px 0px, rgb(255, 255, 255) -0.416147px 0.909297px 0px, rgb(255, 255, 255) -0.989992px 0.14112px 0px, rgb(255, 255, 255) -0.653644px -0.756802px 0px, rgb(255, 255, 255) 0.283662px -0.958924px 0px, rgb(255, 255, 255) 0.96017px -0.279415px 0px;
 }
 #ui-spectate-options {
     top: 85px;
