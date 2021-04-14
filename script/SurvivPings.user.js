@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Surviv.io Show Pings
 // @namespace    https://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  Show your ad, hp, fps and lat
 // @author       VN BPM on YouTube
 // @match        *://surviv.io/*
@@ -83,18 +83,20 @@ const injectCSS = () => {
     position: absolute;
     top: -5px;
     left: 5px;
-    width: 150px;
     color: #008000;
     font-size: 40px;
-	text-shadow: rgb(255, 255, 255) 1px 0px 0px, rgb(255, 255, 255) 0.540302px 0.841471px 0px, rgb(255, 255, 255) -0.416147px 0.909297px 0px, rgb(255, 255, 255) -0.989992px 0.14112px 0px, rgb(255, 255, 255) -0.653644px -0.756802px 0px, rgb(255, 255, 255) 0.283662px -0.958924px 0px, rgb(255, 255, 255) 0.96017px -0.279415px 0px;
+    margin: 5px 0px;
+    width: 192px;
+    text-shadow: rgb(255, 255, 255) 1px 0px 0px, rgb(255, 255, 255) 0.540302px 0.841471px 0px, rgb(255, 255, 255) -0.416147px 0.909297px 0px, rgb(255, 255, 255) -0.989992px 0.14112px 0px, rgb(255, 255, 255) -0.653644px -0.756802px 0px, rgb(255, 255, 255) 0.283662px -0.958924px 0px, rgb(255, 255, 255) 0.96017px -0.279415px 0px;
 }
 #latWrapper {
     position: absolute;
     top: 10px;
     left: 5px;
-    width: 150px;
     color: #228B22;
     font-size: 40px;
+    margin: 5px 0px;
+    width: 192px;
     text-shadow: rgb(255, 255, 255) 1px 0px 0px, rgb(255, 255, 255) 0.540302px 0.841471px 0px, rgb(255, 255, 255) -0.416147px 0.909297px 0px, rgb(255, 255, 255) -0.989992px 0.14112px 0px, rgb(255, 255, 255) -0.653644px -0.756802px 0px, rgb(255, 255, 255) 0.283662px -0.958924px 0px, rgb(255, 255, 255) 0.96017px -0.279415px 0px;
 }
 #ui-spectate-options {
