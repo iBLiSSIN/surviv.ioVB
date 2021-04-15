@@ -70,7 +70,12 @@ const injectCSS = () => {
     let style = document.createElement(`style`);
     style.innerHTML = `
 .box-container {
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(153, 255, 255, 0.25);
+    border-radius: 5px;
+    padding: 8px;
+}
+.box-container-2 {
+    background: rgba(0, 0, 0, 0.0);
     border-radius: 5px;
     padding: 8px;
 }
@@ -117,6 +122,7 @@ const injectCSS = () => {
 const createElements = () => {
     //Add FPS
     let fpsWrapper = document.createElement(`div`);
+    fpsWrapper.classList.add(`box-container-2`);
     fpsWrapper.id = `fpsWrapper`;
  
     let fps = document.createElement(`span`);
@@ -129,6 +135,7 @@ const createElements = () => {
     latWrapper.id = `latWrapper`;
  
     let lat = document.createElement(`span`);
+    latWrapper.classList.add(`box-container-2`);
     latWrapper.appendChild(lat);
     document.querySelector(`#ui-top-left`).appendChild(latWrapper);
  
