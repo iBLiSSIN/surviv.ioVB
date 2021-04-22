@@ -8,8 +8,7 @@ https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/script/SurvivBoomMods
 
 * [AimBot Mods](https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/script/SurvivAimbot.user.js) (I have corrected it but haven't tried it, tell me in [#1](https://github.com/iBLiSSIN/SurvivMods/issues/1))
 
-* [Transparenr Mods](https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/script/SurvivAlpha.user.js) (Make the bu
-ilding, tree, bush and table be transparent)
+* [Transparenr Mods](https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/script/SurvivAlpha.user.js) (Make the building, tree, bush and table be transparent)
 
 * [Texture Mods](https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/script/SurvivTextureMods.user.js) (Additional show your adrenline, your pings and add the regame button and report killer button)
 
