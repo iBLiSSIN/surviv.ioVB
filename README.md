@@ -4,7 +4,7 @@ Mods for surviv.io
  Add the [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=vi) to chrome, then install the mods here:
 
 * [Boom Mods](
-https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/script/SurvivBoomMods.user.js) (Make all object can 'boom' have a easier looker)
+https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/script/SurvivBoomMods.user.js) (Make all object can explosive have a easier looker)
 
 * [AimBot Mods](https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/script/SurvivAimbot.user.js) (I have corrected it but haven't tried it, tell me in [#1](https://github.com/iBLiSSIN/SurvivMods/issues/1))
 
