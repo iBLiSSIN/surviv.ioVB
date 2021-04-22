@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Surviv.IO Ceiling Mods by VN BPM
+// @name         Surviv.IO Transparent Mods by VN BPM
 // @namespace    https://github.com/iBLiSSIN
 // @version      1.0.0
 // @description  Mods for surviv.io. Aim Bot will coming soon. If do during transparency doesn't work, tell me.
