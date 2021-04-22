@@ -1,5 +1,16 @@
-# surviv.io mods by [VN BPM on YouTube](https://www.youtube.com/channel/UCMZkPR_pngZGGRB8Ec7BkHA)
+# Surviv.io mods by [VN BPM on YouTube](https://www.youtube.com/channel/UCMZkPR_pngZGGRB8Ec7BkHA)
 Mods for surviv.io
 
-Install Tampermonkey, then press [here](https://github.com/iBLiSSIN/SurvivMods/raw/main/script/SurvivAimbot.user.js) (aimbot inject) and [here](https://github.com/iBLiSSIN/SurvivMods/raw/main/script/SurvivAlpha.user.js) (make all be transparent)
+ Add the [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=vi) to chrome, then install the mods here:
+
+*[Boom Mods](
+https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/script/SurvivBoomMods.user.js) (Make all object can 'boom' have a easier looker)
+
+*[AimBot Mods](https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/script/SurvivAimbot.user.js) (I have corrected it but haven't tried it, tell me in [#1](https://github.com/iBLiSSIN/SurvivMods/issues/1))
+
+*[Transparenr Mods](https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/script/SurvivAlpha.user.js) (Make the bu
+ilding, tree, bush and table be transparent)
+
+*[Texture Mods](https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/script/SurvivTextureMods.user.js) (Additional show your adrenline, your pings and add the regame button and report killer button)
+
 # This is my first simple js file, so if have error, create a issues
