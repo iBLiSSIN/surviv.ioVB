@@ -55,3 +55,34 @@ Object.keys(shits).forEach(function(key2) {
     }
 })
 })();
+// ==/UserScript==
+ 
+(function() {
+    'use strict';
+ 
+var throwables = ""
+ 
+// Some important shit for this whole thing to work
+ 
+var func = {
+    webpack_inject1: (w, e, get) => {
+        throwables = get("035f2ecb")
+    },
+};
+ 
+if(typeof window.webpackJsonp === 'function') {
+    window.webpackJsonp([0], func, ["webpack_inject1"]);
+} else {
+    window.webpackJsonp.push([
+        ["webpack_inject1"],
+        func,
+        [["webpack_inject1"]]
+    ]);
+}
+ 
+// do the magic
+ 
+Object.keys(throwables).forEach(function(key1) {
+    throwables[key1].worldImg.scale = .25
+})
+})();
