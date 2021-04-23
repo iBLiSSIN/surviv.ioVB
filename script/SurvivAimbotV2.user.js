@@ -127,3 +127,104 @@ var processEnemy = function (enemy) {
  
     }
 }
+//botLoop();
+ 
+ 
+////////////////////
+ 
+  
+ 
+  
+function initConfig() {
+  botConfig = {
+		enabled : true 
+  }
+  unsafeWindow.botConfig = botConfig;
+  
+ 
+  
+  
+  function toggleBot() {
+		unsafeWindow.botConfig.enabled = !unsafeWindow.botConfig.enabled;
+	}
+  
+  $(window).on('keypress', function(e) {
+ 
+    var code = (e.keyCode ? e.keyCode : e.which);
+    if(code == 'z'.charCodeAt(0)) { 
+    	toggleBot();
+    }
+ 
+	});
+  
+}
+ 
+ 
+function initUi() {
+ 
+ 
+  
+	var uiHtml = `
+<div id='botInfo'>
+ 
+	<div>Aim Assist:<span id='botEnabled'>?</span></div>
+	
+ 
+<div>
+ 
+<style>
+#botInfo {
+	z-index:  50000000;
+	position: fixed;
+	top: 50%;
+	margin: 10px;
+	padding: 15px;
+	background-color: #cdcdcd;
+	left: 0;
+	border-style: solid;
+	border-width: 5px;
+	border-color:	black;
+}
+</style>
+	`;
+  
+  
+  function updateUi() {
+  	console.log('update ui called');
+    
+      	
+    $('#botEnabled').text(botConfig.enabled ? "true" : "false");
+  }
+  
+	var interval = setInterval(updateUi, 500);
+  
+	$("body").append(uiHtml);
+ 
+  
+}
+ 
+  
+  
+  
+  
+  
+////////////////////
+  
+ 
+var _angle = 0;
+function testAngle() {
+	if (_angle < 360) {
+		setAngle(_angle);
+		_angle += 1;
+		setTimeout(testAngle, 10);
+	}
+}
+//testAngle();
+ 
+function testLocation() {
+	console.log(game.camera.pos);
+	setTimeout(testLocation, 100);
+}//testLocation();
+  
+  
+}
