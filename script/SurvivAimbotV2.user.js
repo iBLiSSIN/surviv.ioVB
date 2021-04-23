@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name     	Surviv.io aim assist by VN BPM
+// @name     	Surviv.io Aimbot V2
 // @description Click z to toogle aim assist. This is aim assist, not aimbot.
 // @namespace    https://greasyfork.org/scripts/419689-surviv-io-aim-assist-by-vn-bpm/code/Survivio%20aim%20assist%20by%20VN%20BPM.user.js
 // @version  	2.0
