@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         A Custom Texture Mod
 // @namespace    https://ytiridium77.github.io/
-// @version      2.6
+// @version      2.7
 // @description  A small decoration features for surviv.io
 // @author       VN BPM on YouTube
 // @match        *://surviv.io/*
@@ -432,7 +432,7 @@ document.getElementById('modal-settings-body').innerHTML += '<h2>YTIridium77 Mod
 
 
 function Iridium() {
-var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://static-cdn.jtvnw.net/jtv_user_pictures/67c7a3e6-1b7c-4bd3-97c5-953307470f70-profile_image-300x300.png')";
+var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/background2.png')";
 startoverlay.style.backgroundSize = "auto";
 };
 function Tankalty() {
