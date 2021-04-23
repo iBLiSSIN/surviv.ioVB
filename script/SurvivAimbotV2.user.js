@@ -1,3 +1,38 @@
+// ==UserScript==
+// @name     	Surviv.io aim assist by VN BPM
+// @description Click z to toogle aim assist. This is aim assist, not aimbot.
+// @namespace    https://greasyfork.org/scripts/419689-surviv-io-aim-assist-by-vn-bpm/code/Survivio%20aim%20assist%20by%20VN%20BPM.user.js
+// @version  	2.0
+// @grant    	unsafeWindow
+// @author       VN BPM
+// @match        *://surviv.io/*
+// @match        *://surviv2.io/*
+// @match        *://2dbattleroyale.com/*
+// @match        *://2dbattleroyale.org/*
+// @match        *://piearesquared.info/*
+// @match        *://thecircleisclosing.com/*
+// @match        *://archimedesofsyracuse.info/*
+// @match        *://secantsecant.com/*
+// @match        *://parmainitiative.com/*
+// @match        *://nevelskoygroup.com/*
+// @match        *://kugahi.com/*
+// @match        *://chandlertallowmd.com/*
+// @match        *://ot38.club/*
+// @match        *://kugaheavyindustry.com/*
+// @match        *://drchandlertallow.com/*
+// @match        *://rarepotato.com/*
+// @require      http://code.jquery.com/jquery-3.3.1.js 
+// ==/UserScript==
+ 
+//http://code.jquery.com/jquery-1.12.4.min.js
+ 
+(function() {
+	$(function() { main(); });
+})();
+ 
+ 
+function main() {
+	var game;
 var processEnemy = function (enemy) {
         if (!enemy)
             return;
