@@ -26,7 +26,7 @@
     var startoverlay = document.getElementById("start-overlay");
 var startrowheader = document.getElementById("start-row-header");
 
-startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/background2.png')";
+startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SimpleSurviv/master/Visuals/%5BFREE%5D%20RainBowBackground.jpeg')";
 startoverlay.style.backgroundColor = "black";
 
 startrowheader.style.backgroundImage = "url('')";
@@ -35,28 +35,28 @@ document.getElementById('modal-settings-body').innerHTML += '<h2>Mod Menu</h2> <
 
 
 function Iridium() {
-var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/background2.png')";
+var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SimpleSurviv/master/Visuals/%5BFREE%5D%20RainBowBackground.jpeg')";
 startoverlay.style.backgroundSize = "auto";
 };
 function Tankalty() {
-    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/background2.png')";
+    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SimpleSurviv/master/Visuals/%5BFREE%5D%20RainBowBackground.jpeg')";
     startoverlay.style.backgroundSize = "auto";
 };
 function Gamerio() {
-    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/background2.png')";
+    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SimpleSurviv/master/Visuals/%5BFREE%5D%20RainBowBackground.jpeg')";
     startoverlay.style.backgroundSize = "auto";
 };
 function Zmedo() {
-    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/background2.png')";
+    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SimpleSurviv/master/Visuals/%5BFREE%5D%20RainBowBackground.jpeg')";
     startoverlay.style.backgroundSize = "auto";
 };
 function iWolf() {
-    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/background2.png')";
+    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SimpleSurviv/master/Visuals/%5BFREE%5D%20RainBowBackground.jpeg')";
     startoverlay.style.backgroundSize = "100%";
     startoverlay.style.backgroundPositionY = "-175px";
 };
 function g0dak() {
-    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/background2.png')";
+    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SimpleSurviv/master/Visuals/%5BFREE%5D%20RainBowBackground.jpeg')";
     startoverlay.style.backgroundSize = "auto";
 };
 
