@@ -26,37 +26,37 @@
     var startoverlay = document.getElementById("start-overlay");
 var startrowheader = document.getElementById("start-row-header");
 
-startoverlay.style.backgroundImage = "url('https://static-cdn.jtvnw.net/jtv_user_pictures/67c7a3e6-1b7c-4bd3-97c5-953307470f70-profile_image-300x300.png')";
+startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/background2.png')";
 startoverlay.style.backgroundColor = "black";
 
 startrowheader.style.backgroundImage = "url('')";
 
-document.getElementById('modal-settings-body').innerHTML += '<h2>YTIridium77 Mod Menü</h2> <h2>Background Image</h2> <button class="backbutton">Iridium</button> <button class="backbutton">Tankalty YT</button> <button class="backbutton">GAMERIO</button> <button class="backbutton">Zmedo</button> <button class="backbutton">iWolf</button> <button class="backbutton">g0dak</button>';
+document.getElementById('modal-settings-body').innerHTML += '<h2>Mod Menu</h2> <h2>Background Image</h2> <button class="backbutton">Iridium</button> <button class="backbutton">Tankalty YT</button> <button class="backbutton">GAMERIO</button> <button class="backbutton">Zmedo</button> <button class="backbutton">iWolf</button> <button class="backbutton">g0dak</button>';
 
 
 function Iridium() {
-var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://static-cdn.jtvnw.net/jtv_user_pictures/67c7a3e6-1b7c-4bd3-97c5-953307470f70-profile_image-300x300.png')";
+var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/background2.png')";
 startoverlay.style.backgroundSize = "auto";
 };
 function Tankalty() {
-    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://cdn.discordapp.com/avatars/534413834455220224/670b7f91aaa4b54368cd6fafb54609c7.png?size=256')";
+    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/background2.png')";
     startoverlay.style.backgroundSize = "auto";
 };
 function Gamerio() {
-    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://cdn.discordapp.com/avatars/527111830406037514/c43abb91cb654867b60edbc5f3ed99d3.png?size=256')";
+    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/background2.png')";
     startoverlay.style.backgroundSize = "auto";
 };
 function Zmedo() {
-    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/749714154864246846/762309098557014066/-CC9A.jpeg')";
+    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/background2.png')";
     startoverlay.style.backgroundSize = "auto";
 };
 function iWolf() {
-    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/749714154864246846/762309907344261150/image0.png')";
+    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/background2.png')";
     startoverlay.style.backgroundSize = "100%";
     startoverlay.style.backgroundPositionY = "-175px";
 };
 function g0dak() {
-    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/749712706210234448/762630592479100958/image0.gif')";
+    var startoverlay = document.getElementById("start-overlay"); startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/background2.png')";
     startoverlay.style.backgroundSize = "auto";
 };
 
@@ -79,7 +79,7 @@ backbutton.style.backgroundColor = "yellow";
     }
     }, 500);
 
-document.getElementById("start-bottom-middle").innerHTML = "<a href='https://discord.gg/J8kBwk9' target='_blank'>Made by Philipp</a><a href='https://www.youtube.com/channel/UCRJIEWtHtxwql2KuUchPc2A' target='_blank'>YTIridium77 Mod</a>";
+document.getElementById("start-bottom-middle").innerHTML = "<a href='https://www.youtube.com/channel/UCMZkPR_pngZGGRB8Ec7BkHA' target='_blank'>Made by VN BPM on YoTube</a><a href='https://www.youtube.com/channel/UCMZkPR_pngZGGRB8Ec7BkHA' target='_blank'>VN BPM Mod</a>";
 
 
     var mod = document.createElement("p");
@@ -92,7 +92,7 @@ document.getElementById("start-bottom-middle").innerHTML = "<a href='https://dis
             document.getElementById("ui-map-container").parentNode.appendChild(mod);
 			var map = document.getElementById('ui-map-container');
 			map.parentNode.insertBefore(mod, map);
-			mod.innerHTML = "A YTIridium77 Mod";
+			mod.innerHTML = "A VN BPM Mod";
 
 
     var elems = document.getElementsByClassName('ui-weapon-name')
