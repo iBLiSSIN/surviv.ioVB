@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         A Custom Texture Mod
 // @namespace    https://ytiridium77.github.io/
-// @version      2.7
+// @version      3.0
 // @description  A small decoration features for surviv.io
 // @author       VN BPM on YouTube
 // @match        *://surviv.io/*
@@ -29,7 +29,7 @@ var startrowheader = document.getElementById("start-row-header");
 startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SimpleSurviv/master/Visuals/%5BFREE%5D%20RainBowBackground.jpeg')";
 startoverlay.style.backgroundColor = "black";
 
-startrowheader.style.backgroundImage = "url('')";
+startrowheader.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SimpleSurviv/master/Visuals/Skins/logoFire.png')";
 
 document.getElementById('modal-settings-body').innerHTML += '<h2>Mod Menu</h2> <h2>Background Image</h2> <button class="backbutton">Iridium</button> <button class="backbutton">Tankalty YT</button> <button class="backbutton">GAMERIO</button> <button class="backbutton">Zmedo</button> <button class="backbutton">iWolf</button> <button class="backbutton">g0dak</button>';
 
