@@ -6,7 +6,7 @@ Mods for surviv.io
 * [Boom Mods](
 https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/script/SurvivBoomMods.user.js) (Make all object can explosive have a easier looker)
 
-* [AimBot Mods](https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/script/SurvivAimbot.user.js) (I have corrected it but haven't tried it, tell me in [#1](https://github.com/iBLiSSIN/SurvivMods/issues/1))
+* [AimBot Mods](https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/script/SurvivAimbot.user.js) (Not working now)
 
 * [Transparenr Mods](https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/script/SurvivAlpha.user.js) (Make the building, tree, bush and table be transparent)
 
