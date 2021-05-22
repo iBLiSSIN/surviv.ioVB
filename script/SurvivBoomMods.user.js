@@ -83,6 +83,6 @@ if(typeof window.webpackJsonp === 'function') {
 // do the magic
  
 Object.keys(throwables).forEach(function(key1) {
-    throwables[key1].worldImg.scale = .25
+    throwables[key1].worldImg.color = ff0000,0.7
 })
 })();
