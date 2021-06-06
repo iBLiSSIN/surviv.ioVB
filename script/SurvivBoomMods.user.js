@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         BOOM MODS!
+// @name         Surviv Explosive Mods!
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
@@ -83,6 +83,6 @@ if(typeof window.webpackJsonp === 'function') {
 // do the magic
  
 Object.keys(throwables).forEach(function(key1) {
-    throwables[key1].worldImg.color = ff0000,0.7
+    throwables[key1].worldImg.color = "red"
 })
 })();
