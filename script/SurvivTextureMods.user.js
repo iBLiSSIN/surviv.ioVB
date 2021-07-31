@@ -25,12 +25,15 @@
 
     var startoverlay = document.getElementById("start-overlay");
 var startrowheader = document.getElementById("start-row-header");
+var startbutton = document.getElementById(".btn-battle");
 
 startoverlay.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SimpleSurviv/master/Visuals/%5BFREE%5D%20RainBowBackground.jpeg')";
 startoverlay.style.backgroundColor = "black";
 
 startrowheader.style.backgroundImage = "url('https://raw.githubusercontent.com/iBLiSSIN/SimpleSurviv/master/Visuals/Skins/logoFire.png')";
-
+	
+startbutton.style.background = "000000"
+	
 document.getElementById('modal-settings-body').innerHTML += '<h2>Mod Menu</h2> <h2>Background Image</h2> <button class="backbutton">Iridium</button> <button class="backbutton">Tankalty YT</button> <button class="backbutton">GAMERIO</button> <button class="backbutton">Zmedo</button> <button class="backbutton">iWolf</button> <button class="backbutton">g0dak</button>';
 
 
