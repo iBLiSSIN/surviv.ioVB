@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.5
 // @icon         https://media.discordapp.net/attachments/828306103448109097/871941998393831454/svgviewer-png-output_1.png
-// @description  ếch
+// @description  Remake dark theme working 2021 by The Zie
 // @author       sk
 // @grant        GM_setValue
 // @grant        GM_getValue
