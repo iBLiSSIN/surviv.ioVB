@@ -88,7 +88,7 @@ document.getElementById("sticky-footer").remove(); // ad
 else{
 document.getElementById("background").style = "filter:brightness(0%);background-image:url(https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/27D052EA-F2E6-4A24-80F4-7AC3B94E9525.png?width=1920&height=1080);";
  
-document.getElementById("logo").style = "filter:brightness(0%);background-image:url(https://?width=1920&height=1080);";
+document.getElementById("logo").style = "filter:brightness(0%);background-image:url(https://raw.githubusercontent.com/humphreygaming/surviv-cheat-source/master/src/file/wm04.enc.png?width=750&height=280);";
  
 document.getElementById("start-top-left").style = "display:none;";
 document.getElementById("start-menu").style = "display:none;";
