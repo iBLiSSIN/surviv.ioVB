@@ -86,7 +86,7 @@ document.getElementById("sticky-footer").remove(); // ad
 }
  
 else{
-document.getElementById("background").style = "filter:brightness(50%);background-image:url(https://media.discordapp.net/attachments/828306103448109097/868375068529557504/latest.png?width=1920&height=1080);";
+document.getElementById("background").style = "filter:brightness(0%);background-image:url(https://wallpaperaccess.com/full/4243099.jpg?width=1920&height=1080);";
  
 document.getElementById("start-top-left").style = "display:none;";
 document.getElementById("start-menu").style = "display:none;";
