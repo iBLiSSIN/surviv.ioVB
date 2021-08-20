@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.5
 // @icon         https://media.discordapp.net/attachments/828306103448109097/871941998393831454/svgviewer-png-output_1.png
-// @description  Remake dark theme working 2021 by The Zie
+// @description  ếch
 // @author       sk
 // @grant        GM_setValue
 // @grant        GM_getValue
@@ -86,9 +86,7 @@ document.getElementById("sticky-footer").remove(); // ad
 }
  
 else{
-document.getElementById("background").style = "filter:brightness(0%);background-image:url(https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/27D052EA-F2E6-4A24-80F4-7AC3B94E9525.png?width=1920&height=1080);";
- 
-document.getElementById("logo").style = "background-image:url(https://raw.githubusercontent.com/humphreygaming/surviv-cheat-source/master/src/file/wm04.enc.png?width=750&height=280);";
+document.getElementById("background").style = "filter:brightness(50%);background-image:url(https://media.discordapp.net/attachments/828306103448109097/868375068529557504/latest.png?width=1920&height=1080);";
  
 document.getElementById("start-top-left").style = "display:none;";
 document.getElementById("start-menu").style = "display:none;";
