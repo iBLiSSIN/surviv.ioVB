@@ -86,64 +86,7 @@ document.getElementById("sticky-footer").remove(); // ad
 }
  
 else{
-document.getElementById("background").style = "filter:brightness(0%);background-image:url(https://wallpaperaccess.com/full/4243099.jpg?width=1920&height=1080);";
- 
-document.getElementById("start-top-left").style = "display:none;";
-document.getElementById("start-menu").style = "display:none;";
-document.getElementById("free-gp-offer").style = "display:none;";
-document.getElementById("missions-name").style = "background-image:none";
-document.getElementById("missions-wrapper").style = "margin-block:155px;";
-document.getElementById("social-share-block").style = "display:none;";
-document.getElementById("pass-block").style = "background-color:rgb(0 0 0 / 20%);border-radius:0;";
-document.getElementById("start-row-header").style = "display:none;";
-document.getElementById("btn-support").style = "display:none;";
-document.getElementById("modal-body-warning").style = "background:rgb(255 255 255 / 0%);";
- 
-document.getElementById("prestige-loading").style = "color:rgb(0 0 0 / 70%);";
-document.getElementById("start-row-top").style = "margin-left:250px;margin-block:200px;";
-document.getElementById("squad-boost-perc").style = "display:none;";
-document.getElementById("btn-team-leave").style = "background-color:#221E23;box-shadow:none;border-bottom:2px solid #010003;border-radius:0px;";
-document.getElementById("boost-warning").style = "background:rgb(34 30 35);padding:5px;opacity:0.2;font-size:16px;margin-block-start:0px;display:block;";
-document.getElementById("xp-team-text").style = "display:none;";
-document.getElementById("team-menu-members").style = "margin-block:77px;";
-document.getElementById("team-menu-columns").style = "margin-block:150px;margin-inline:-100px";
-document.getElementById("invite-code-text").style = "opacity:0;";
-document.getElementById("invite-link-text").style = "opacity:0;";
-document.getElementById("team-url").style = "background:rgb(255 255 255 / 50%);border-radius:0;width:550px;margin-left:-138px;";
-document.getElementById("team-hide-url").style = "margin-inline:5000px";
-document.getElementById("team-code").style = "width:0px;font-size:0px;";
-document.getElementById("team-link-input").style = "width:550px;border-radius:0px;margin-left:-195px;color:rgb(255 255 255 / 70%);";
-document.getElementById("msg-wait-reason").style = "margin-bottom:47px;";
-document.getElementById("ui-spectate-video-ad-container-desktop").style = "display:none;margin-block:-5000px;opacity:0;";
-document.getElementById("ui-spectate-ad-container-desktop").style = "display:none;margin-block:-5000px;opacity:0;";
-document.getElementById("pass-buy-btn-spectate").style = "display:none;";
- 
-document.getElementById("modal-customize-cat-title").style = "opacity:0;";
-document.getElementById("modal-customize-sort").style = "display:none;";
-document.getElementById("modal-customize-header").style = "border-radius:0px;background-color:rgba(0,0,0,0.08);"
-document.getElementById("modal-customize-footer").style = "border-radius:0px;background-color:rgba(0,0,0,0.08);";
-document.getElementById("modal-customize-unlocks").style = "display:none;";
-document.getElementById("button-sell-item").style = "background-color:#221E23;box-shadow:none;border-bottom:2px solid #010003;border-radius:0px;";
-document.getElementById("modal-customize-item-sell-container").style = "background-color:rgba(0,0,0,0.08);";
-document.getElementById("modal-customize-item-header").style = "display:none;";
-document.getElementById("modal-customize-body").style = "background-color:rgba(0,0,0,0.08);";
-document.getElementById("modal-customize-list").style = "background-color:rgba(0,0,0,0);";
- 
-document.getElementById("market-change-type").style = "background-color:#221E23;box-shadow:none;border-bottom:2px solid #010003;border-radius:0px;";
-document.getElementById("market-change-rarity").style = "box-shadow:none;border-bottom:2px solid #010003;border-radius:0px;";
-document.getElementById("market-change-sort").style = "background-color:#221E23;box-shadow:none;border-bottom:2px solid #010003;border-radius:0px;";
-document.getElementById("market-change-mode").style = "background-color:#221E23;box-shadow:none;border-bottom:2px solid #010003;border-radius:0px;";
- 
-document.getElementById("btn-help").style = "background-color:#221E23;box-shadow:none;border-bottom:2px solid #010003;border-radius:0px;";
-document.getElementById("btn-news").style = "background-color:#221E23;box-shadow:none;border-bottom:2px solid #010003;border-radius:0px;";
-document.getElementById("news-block").style = "border-radius:0px;";
- 
-document.getElementById("btn-game-fullscreen").style = "box-shadow:none;border-radius:0px;background:rgba(250,250,250,0.3);border-bottom:none;background-image:url(../img/gui/minimize.svg);background-size:34px;background-position:4px 2px;background-repeat:no-repeat;";
-document.getElementById("btn-game-sound").style = "box-shadow:none;border-radius:0px;background:rgba(250,250,250,0.3);border-bottom:none;background-image:url(../img/gui/audio-on.svg);background-size:34px;background-position:4px 2px;background-repeat:no-repeat;";
-document.getElementById("btn-game-quit").style = "box-shadow:none;border-radius:0px;background:rgba(250,250,250,0.3);border-bottom:none;background-image:url(../img/gui/quit.svg);background-size:34px;background-position:4px 2px;background-repeat:no-repeat;";
-document.getElementById("btn-game-resume").style = "box-shadow:none;border-radius:0px;background:rgba(250,250,250,0.3);border-bottom:none;background-image:url(../img/gui/resume.svg);background-size:34px;background-position:4px 2px;background-repeat:no-repeat;";
-document.getElementById("btn-game-settings").style = "border-radius:0px;";
-document.getElementById("btn-game-keybinds").style = "border-radius:0px;";
+document.getElementById("background").style = "filter:brightness(100%);background-image:url(https://wallpaperaccess.com/full/4243099.jpg?width=1920&height=1080);";
 }
  
 GM_addStyle(`
@@ -166,27 +109,27 @@ background-color:rgba(250,250,250,0.05);
 background-color:rgba(250,250,250,0.05);
 }
 .btn-keybind{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 #btn-start-fullscreen{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .btn-start-mute{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .btn-settings{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .market-container{
@@ -219,28 +162,28 @@ background-image:none;
 color:white;
 }
 .btn-modal-confirm{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .btn-modal-confirm span {
 color:#fff;
 }
 .market-list-item-container .market-item-action-container .market-item-action-btn{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .btn-market-filter-gray{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .market-change-selection div .right-market-btn{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
 border-radius:0px;
 }
@@ -254,9 +197,9 @@ background:rgba(0,0,0,0.08);
 opacity:0
 }
 #iap-modal .iap-screen .iap-container .iap-limited-offers .iap-lto-packs-container .iap-lto-pack{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 #iap-modal .iap-screen .iap-container .iap-limited-offers .iap-lto-packs-container .iap-lto-pack .iap-lto-item-container{
@@ -269,9 +212,9 @@ color:rgba(255,255,255,.8);
 height:320px;
 }
 #iap-modal .iap-screen .iap-container .iap-gp .iap-gp-packs-container .iap-gp-pack{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 #iap-modal .iap-screen .iap-container .iap-gp .iap-gp-packs-container .iap-gp-pack .iap-gp-item-container{
@@ -282,9 +225,9 @@ background-color:none;
 }
  
 .btn-offerwall-shop .btn-offerwall{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 #crates-modal .crates-screen .crates-container .crate-display .crate-spinner{
@@ -361,9 +304,9 @@ opacity:0.8;
 border-radius:0;
 }
 .modal-account>.modal-content>.modal-footer>.finish{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .modal-header{
@@ -378,15 +321,15 @@ opacity:1;
 display:none;
 }
 .btn-account-turq{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .btn-account-grey{
 background-color:#3F3841;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .account-buttons{
@@ -394,15 +337,15 @@ background:rgba(0,0,0,0.08);
 }
 .account-details-link-out{
 background-image:none;
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .server-select{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .ad-block-leaderboard-bottom{
@@ -418,18 +361,18 @@ display:none;
 opacity:0;
 }
 .btn-open-iap{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .animated-loadout>.character-container{
 display:none;
 }
 .btn-login-facebook{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .btn-login-facebook>.login-button-name>.icon{
@@ -443,45 +386,45 @@ margin-left:0;
 text-shadow:none;
 }
 .btn-login-google{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .btn-login-google>.login-button-name>.icon{
 display:none;
 }
 .btn-login-twitch{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .btn-login-twitch>.login-button-name>.icon{
 display:none;
 }
 .btn-login-discord{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .btn-login-discord>.login-button-name>.icon{
 display:none;
 }
 .btn-login-apple{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .btn-login-apple>.login-button-name>.icon{
 display:none;
 }
 .btn-login-steam{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .btn-login-steam>.login-button-name>.icon{
@@ -492,9 +435,9 @@ background-size:20px;
 background-position-x:50%;
 }
 .notLogged{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .island-text p{
@@ -511,11 +454,11 @@ display:none;
 display:none;
 }
 .animated-loadout .btn-prestige p span{
-color:rgb(0 0 0 / 70%)
+color:c4d338
 }
 .animated-loadout .btn-green, .animated-loadout .btn-prestige{
 width:56px;
- 
+
 }
 .animated-loadout .btn-prestige{
 background:rgb(255 255 255 / 50%);
@@ -525,9 +468,9 @@ margin-bottom:-55px;
 margin-right:95px;
 }
 .btn-green{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .btn-prestige{
@@ -567,9 +510,9 @@ border-radius:0px;
 -webkit-animation-name:none;
 }
 .btn-team-option{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .account-loading-container{
@@ -579,15 +522,15 @@ display:none;
 font-size:16px;
 }
 .btn-change-mode-selection div .right-play-btn{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .btn-change-type-selection div .right-play-btn{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 }
 .btn-change-type-selection{
@@ -600,9 +543,9 @@ max-height:500px;
 display:none;
 }
 .menu-team-autofill-option{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 height:45px;
 }
@@ -629,9 +572,9 @@ color:rgb(255 255 255 / 50%);
 color:rgb(0 0 0 / 70%);
 }
 .copy-item{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 width:173px;
 }
@@ -662,9 +605,9 @@ background:rgb(255 255 255 / 50%);
 box-shadow:inset 0 -2px #ffffff00!important;
 }
 .team-menu-member>.icon-kick {
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 width:173px;
 height:65px;
@@ -673,9 +616,9 @@ margin-block:-90px;
 background-position:center;
 }
 .team-menu-member>.icon-leader{
-background-color:#221E23;
+background-color:#AED6F1;
 box-shadow:none;
-border-bottom:2px solid #010003;
+border-bottom:2px solid #AED6F1;
 border-radius:0px;
 width:173px;
 height:65px;
