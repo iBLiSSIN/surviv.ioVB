@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Survivio Mod by VN BPM on YT
 // @namespace    https://github.com/iBLiSSIN
-// @version      1.0
+// @version      1.1
 // @description  New look in the game :))
-// @author       Michal2SAB
+// @author       VN BPM
 // @match        *://surviv.io/*
 // @match        *://surviv2.io/*
 // @match        *://2dbattleroyale.com/*
@@ -87,6 +87,8 @@ Object.keys(shits).forEach(function(key2) {
         shits[key2].img.scale = 0.21
     } else if(key2.match(/barrel/g)) {
         shits[key2].img.sprite = "https://static.wikia.nocookie.net/survivio/images/7/73/A_campfire.png"
+    } else if(key2.match(/stone/g)) {
+        shits[key2].img.sprite = "https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img/%C4%91%C3%A1%20surviv%20modded.png"
     }
 })
 })();
