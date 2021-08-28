@@ -3,7 +3,7 @@
 // @namespace    https://github.com/iBLiSSIN
 // @version      2.0
 // @description  Original is by dog
-// @author       Michal2SAB
+// @author       VN BPM
 // @match        *://surviv.io/*
 // @match        *://surviv2.io/*
 // @match        *://2dbattleroyale.com/*
