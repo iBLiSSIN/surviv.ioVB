@@ -26,43 +26,6 @@
 (function() {
     'use strict';
  
-var shits = ""
- 
-// Some important shit for this whole thing to work
- 
-var func = {
-    webpack_inject: (w, e, get) => {
-        shits = get("03f4982a")
-    },
-};
- 
-if(typeof window.webpackJsonp === 'function') {
-    window.webpackJsonp([0], func, ["webpack_inject"]);
-} else {
-    window.webpackJsonp.push([
-        ["webpack_inject"],
-        func,
-        [["webpack_inject"]]
-    ]);
-}
- 
-// do the magic
- 
-Object.keys(shits).forEach(function(key) {
-    if(key.match(/tree/g)) {
-        shits[key].img.alpha = 0.3
-    } else if(key.match(/bush-01/g)) {
-        shits[key].img.alpha = 0.3
-    } else if(key.match(/table/g)) {
-        shits[key].img.alpha = 0.3
-    }
-})
-})();
-// ==/UserScript==
- 
-(function() {
-    'use strict';
- 
 var throwables = ""
  
 // Some important shit for this whole thing to work
@@ -119,7 +82,7 @@ if(typeof window.webpackJsonp === 'function') {
 Object.keys(ceilings).forEach(function(key) {
     if(ceilings[key].type === "building") {
         for(var ceilImg in ceilings[key].ceiling.imgs) {
-            ceilings[key].ceiling.imgs[ceilImg].alpha = 0.4
+            ceilings[key].ceiling.imgs[ceilImg].sprite = "https://surviv.io/img/question.svg"
         }
     }
 })
